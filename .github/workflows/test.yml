@@ -1,8 +1,8 @@
 name: Test Java App
 on: push
 jobs:
-  runtest:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Print
-      run: echo It's running test java app after push!!!
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: echo Runs after push!
