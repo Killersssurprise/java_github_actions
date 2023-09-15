@@ -1,0 +1,7 @@
+name: Test Java App
+on: push
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Print
+      run: echo It's running test java app after push!!!
