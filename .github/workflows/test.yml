@@ -1,6 +1,7 @@
 name: Test Java App
 on: push
 jobs:
+  runtest:
   runs-on: ubuntu-latest
   steps:
     - name: Print
