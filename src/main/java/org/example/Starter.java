@@ -11,6 +11,9 @@ import java.util.List;
 public class Starter {
 
     public static void main(String[] args) throws NoMathParameterException {
+
+        int aaaaa = 10;
+
 //
 //        BaseBook myBook = new BaseBook("Vasya Pupkin", 1970, "Бытие мое");
 ////        BaseBook book2 = new BaseBook("Vasya Pupkin", "Какое бытие твое?");
