@@ -10,4 +10,4 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
 #      - run: java src/main/java/org/example/HelloWorldApp.java
-      - run: mvn clean test
+      - run: mvn test
