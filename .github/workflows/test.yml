@@ -9,5 +9,5 @@ jobs:
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
-#      - run: src/main/java/org/example/java HelloWorldApp.java
-      - run: pwd && ls
+      - run: src/main/java/org/example/ java HelloWorldApp.java
+#      - run: pwd && ls
