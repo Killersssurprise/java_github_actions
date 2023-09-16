@@ -12,7 +12,7 @@ public class CalculatorTest {
 
     @Test
     void sumTest(){
-        Assertions.assertEquals(Calculator.sum(3,2), 5);
+        Assertions.assertEquals(Calculator.sum(3,2), 7);
 //        Assert.assertEquals(Calculator.sum(3,2), 5);
     }
 
