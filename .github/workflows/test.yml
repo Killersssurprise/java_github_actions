@@ -9,4 +9,4 @@ jobs:
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
-      - run: java HelloWorldApp.java
+      - run: src/main/java/org/example/java HelloWorldApp.java
