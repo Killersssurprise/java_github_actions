@@ -16,10 +16,10 @@
 
 
     <repositories>
-        <repository>
-            <id>java-net-repo</id>
-            <url>https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>java-net-repo</id>-->
+<!--            <url>https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple</url>-->
+<!--        </repository>-->
 
         <repository>
             <id>java-net-repo</id>
@@ -32,22 +32,32 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.2</version>
+            <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.googlecode.json-simple</groupId>-->
+<!--            <artifactId>json-simple</artifactId>-->
+<!--            <version>1.1.1</version>-->
+<!--        </dependency>-->
 
     </dependencies>
 
-
+    <!--        <dependency>-->
+    <!--            <groupId>com.googlecode.json-simple</groupId>-->
+    <!--            <artifactId>json-simple</artifactId>-->
+    <!--            <version>1.1.1</version>-->
+    <!--        </dependency>-->
 
 </project>
