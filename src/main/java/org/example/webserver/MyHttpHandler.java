@@ -40,7 +40,7 @@ public class MyHttpHandler implements HttpHandler {
 //        htmlBuilder.append("").append("").append("<h1>").append("Hello ").append(requestParamValue).append("</h1>").append("").append("");
 
         String s = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>Java sample</title> </head>";
-        String out = s+"<h1> Hello my dear friend! "+ requestParamValue+"</h1>";
+        String out = s+"<h1> Hello my favorite and dear friend! "+ requestParamValue+"</h1>";
 
 //        String htmlResponse = StringEscapeUtils.escapeHtml4(htmlBuilder.toString());
 //        String htmlResponse = StringEscapeUtils.escapeHtml4(out);

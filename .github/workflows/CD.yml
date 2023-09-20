@@ -1,5 +1,6 @@
 name: CD Java app to the server
-on: workflow_dispatch
+#on: workflow_dispatch
+on: push
 jobs:
   deploy:
     runs-on: ubuntu-latest
